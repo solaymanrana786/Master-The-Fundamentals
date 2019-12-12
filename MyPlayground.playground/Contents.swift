@@ -48,3 +48,29 @@ let anotherEmployee = Employee("Solayman Rana")
 print(anotherEmployee.name)
 print(anotherEmployee.role)
 
+var myDic = [Int:String]()
+myDic[1] = "Solayman"
+myDic[2] = "Rana"
+myDic[3] = "Walid"
+myDic[4] = "Noban"
+//print(myDic)
+//
+//for (key, value) in myDic {
+//    print("\(key) is  \(value)")
+//}
+
+
+let key = [1,2,3,4,5,6,7,8]
+let value = ["rana","helal","labib","noban","walid","ergbh ","wrlejgn","erh"]
+var newDict = Dictionary(uniqueKeysWithValues: zip(key, value))
+//print(newDict)
+for (key, value) in newDict {
+    print("\(key) is  \(value)")
+}
+newDict[43] = "tarasha"
+newDict[420] = "bitisha"
+print(newDict.isEmpty)
+print(newDict)
+for (key, value) in newDict {
+    print("\(key) is  \(value)")
+}
