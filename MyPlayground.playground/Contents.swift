@@ -2,8 +2,9 @@ import UIKit
 
 class Person {
     var name = ""
-    init() {
-        name = "Solayman_Rana"
+  
+    init(_ name: String) {
+        self.name = name
     }
 
 }
@@ -33,5 +34,5 @@ class Manager: Employee {
     }
 }
 
-let myPerson = Person()
+let myPerson = Person("Solayman Rana")
 print(myPerson.name)
