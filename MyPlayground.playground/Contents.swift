@@ -36,3 +36,6 @@ class Manager: Employee {
 
 let myPerson = Person("Solayman Rana")
 print(myPerson.name)
+
+let anotherEmployee = Employee("Joe")
+print(anotherEmployee.name)
